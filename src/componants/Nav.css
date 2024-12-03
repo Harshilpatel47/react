@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    height: 8vh;
+    background: teal;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    
+
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    font-size: 28px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,7 @@
+.sidebar{
+    
+    width: 20vh;
+    height: calc(100vh - 8vh);
+    background-color: aquamarine;
+    position: fixed;
+}
