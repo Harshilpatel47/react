@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+/* Basic Styling for Header */
+.header {
+  background-color: #34a1ab;
+  padding: 10px 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+}
+
+.data {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.data li {
+  font-size: 1.2rem;
+}
+
+.data .b, .data .c, .data .d, .data .e {
+  font-size: 1.5rem;
+}
+
+.data .f, .data .g {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.data .f b, .data .g b {
+  margin-left: 5px;
+}
+
+.upgrade {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upgrade:hover {
+  background-color: #45a049;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .nav-section {
+    width: 100%;
+  }
+
+  .data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .data li {
+    font-size: 1rem;
+  }
+
+  .upgrade {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .data li {
+    font-size: 0.9rem;
+  }
+
+  .data .b, .data .c, .data .d, .data .e {
+    font-size: 1.3rem;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+}
+
+.a:hover{
+    color: rgb(175, 158, 133);
+
+}
+.b:hover{
+    color: rgb(10, 255, 243);
+}
+.c:hover{
+    color: rgb(77, 17, 241);
+}
+.d:hover{
+    color: rgb(255, 10, 92);
+}
+.e:hover{
+    color: rgb(70, 94, 93);
+}
+.f:hover{
+    color: rgb(123, 98, 89);
+
+}
+.g:hover{
+     background-color: rgb(240, 70, 70);
+}
+.slider{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.card{
+    gap: 10px;
+    width: 230px;
+    height: 500px;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+ 
+  }
+  
+  .footer h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin: 5px 0;
+  }
+  
+  .footer ul li a {
+    color: #ddd;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    color: #f1f1f1;
+  }
+  .row{
+    display: flex;
+  }
+  
+  .footer .text-center {
+    margin-top: 20px;
+  }
+  
